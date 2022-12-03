@@ -1,0 +1,90 @@
+header{
+    min-height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.582)) ,url(image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-top: 20px;
+    height: 100px;
+}
+.main-nav{
+    list-style: none;
+    display: flex;
+}
+
+.main-nav li{
+    margin-right: 30px;
+}
+.main-nav a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    border: solid 1px;
+    border-color: orangered;
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+.main-nav a:hover{
+    background-color: orangered;
+}
+
+.entry{
+    position: absolute;
+    top: 40%;
+}
+h1{
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-family: Acme;
+}
+.btn{
+ border: solid 1px;
+text-decoration: none;
+text-transform: uppercase;
+color: #fff;
+padding: 10px 10px;
+border-radius: 10px;
+border-color: orangered;
+font-family: Acme;
+}
+.btn:hover{
+    background-color: orangered;
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    letter-spacing: 4px;
+}
+h2::after{
+    content:"";
+    display: block;
+
+    background-color: orangered;
+    height: 5px;
+    width: 120px;
+    margin: 20px auto;
+}
+
+.prod{
+    text-align: center;
+    border: solid red 1px;
+    border-radius: 6px;
+}
+.team{
+    text-align: center;
+    border: solid red 1px;
+    border-radius: 6px;
+}
